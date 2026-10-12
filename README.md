@@ -1,257 +1,146 @@
-# Awesome-Conversational-Workflow-Bot
-
-## Top Conversational Workflow Bot Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Enterprise Chatbots, IT Automation & Employee Workflows*  
-
-**Last updated: March 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Conversational Workflow Bots**. These tools enable employees to complete tasks, request approvals, automate IT operations, and access knowledge through natural language conversations inside Slack, Microsoft Teams, and other messaging platforms.
-
-
-
-**Examples** include Salesforce Slackbot, Moveworks, Leena AI, Espressive Barista, Workato Workbot, Kore.ai, Botpress, Yellow.ai, YellowBot, and Ada (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom LLM agent development, and open workflow automation — ideal for IT teams, HR departments, and developers seeking transparent, vendor-independent conversational automation.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Salesforce Slackbot](https://slack.com/)**  
-
-  Slack's native assistant for help, reminders, and workflows. Deep integration with Salesforce for record queries, approvals, and CRM actions directly in Slack channels.
-
-
-
-- **[Moveworks](https://www.moveworks.com/)**  
-
-  AI-powered employee support platform with conversational interface for IT, HR, and finance. Features autonomous issue resolution, knowledge retrieval, and workflow automation across enterprise systems.
-
-
-
-- **[Leena AI](https://leena.ai/)**  
-
-  Conversational AI platform for HR and IT service management. Features employee helpdesk automation, onboarding workflows, and integrations with Workday, ServiceNow, and Slack.
-
-
-
-- **[Espressive Barista](https://www.espressive.com/)**  
-
-  AI-powered virtual support agent for employee self-help. Features natural language understanding, ticket deflection, and integrations with ServiceNow, Slack, and Microsoft Teams.
-
-
-
-- **[Workato Workbot](https://www.workato.com/)**  
-
-  Enterprise automation platform with Workbot for Slack and Teams. Enables no-code workflow automation across 400+ business apps including Salesforce, Jira, and Workday.
-
-
-
-- **[Kore.ai](https://kore.ai/)**  
-
-  Enterprise conversational AI platform for building virtual assistants. Features multi-channel deployment, workflow automation, and integrations with enterprise systems.
-
-
-
-- **[Botpress](https://botpress.com/)**  
-
-  Conversational AI platform (open-core) for building chatbots. Features visual flow builder, NLU, and integrations with messaging channels. Cloud hosting available alongside self-hosted option.
-
-
-
-- **[Yellow.ai](https://yellow.ai/)**  
-
-  Conversational AI platform for customer and employee experiences. Features voice and chat automation, workflow orchestration, and multi-channel deployment.
-
-
-
-- **[YellowBot](https://yellowbot.com/)**  
-
-  Business directory and conversational assistant platform. Provides AI-powered recommendations and business information lookup via conversational interface.
-
-
-
-- **[Ada](https://www.ada.cx/)**  
-
-  AI-powered customer service automation platform. Features no-code automation builder, multi-channel support, and integrations with CRMs and helpdesks.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Botpress](https://github.com/botpress/botpress)**  
-
-  Open-source conversational AI platform (MIT) for building chatbots. Features visual flow editor, NLU engine, knowledge base, and channel integrations including Slack, Teams, and web. 12k+ GitHub stars. Cloud hosting available for those preferring managed deployment.
-
-
-
-- **[Rasa](https://github.com/RasaHQ/rasa)**  
-
-  Leading open-source conversational AI framework (Apache-2.0). Features NLU for intent classification and entity extraction, dialogue management, and custom action server. 18k+ GitHub stars. Enterprise platform available with additional tooling.
-
-
-
-- **[Typebot](https://github.com/baptisteArno/typebot.io)**  
-
-  Open-source conversational form and chatbot builder (AGPL-3.0). Features visual flow builder, integrations with Slack, WhatsApp, and web. Can be self-hosted with Docker. 7k+ GitHub stars.
-
-
-
-- **[Langflow](https://github.com/langflow-ai/langflow)**  
-
-  Open-source visual framework for building multi-agent and RAG applications (MIT). Features drag-and-drop LLM workflow builder, API deployment, and MCP server support. 60k+ GitHub stars. Ideal for building custom conversational workflow bots with LLMs.
-
-
-
-- **[Flowise](https://github.com/FlowiseAI/Flowise)**  
-
-  Open-source drag-and-drop LLM app builder (Apache-2.0). Features visual chatbot builder, RAG pipelines, and API endpoints. 30k+ GitHub stars. Self-hostable and extensible.
-
-
-
-- **[Dify](https://github.com/langgenius/dify)**  
-
-  Open-source LLM app development platform (Apache-2.0 with additional conditions). Features agentic workflows, RAG pipeline, model management, and observability. 50k+ GitHub stars. Backend-as-a-service for building conversational AI.
-
-
-
-- **[n8n](https://github.com/n8n-io/n8n)**  
-
-  Open-source workflow automation platform (Sustainable Use License) with AI capabilities. Features 400+ integrations, LangChain nodes, and custom code execution. Can build conversational bots with Slack, Teams, and CRM triggers. 50k+ GitHub stars.
-
-
-
-- **[Activepieces](https://github.com/activepieces/activepieces)**  
-
-  Open-source no-code automation platform (MIT for core). Features 200+ integrations including Slack, Salesforce, and HubSpot. Can build conversational workflows with AI pieces.
-
-
-
-- **[Huginn](https://github.com/huginn/huginn)**  
-
-  Open-source system for building agents that monitor and act on your behalf (MIT). Features event-driven workflows, webhooks, and integrations. Can be used for conversational alerting and task automation.
-
-
-
-- **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)**  
-
-  Open-source team communication platform (MIT) with bot framework. Features chatbots, slash commands, and workflow automation. Can build conversational workflow bots for internal operations.
-
-
-
-- **[Mattermost](https://github.com/mattermost/mattermost)**  
-
-  Open-source Slack alternative (MIT for core). Features bot accounts, slash commands, and playbook automation. Can host conversational workflow bots for DevOps and IT teams.
-
-
-
-- **[Danswer (Onyx)](https://github.com/danswer-ai/danswer)**  
-
-  Open-source AI assistant and enterprise search (MIT). Features natural language Q&A, document connectors, and Slack integration. Can serve as knowledge retrieval backend for conversational bots.
-
-
-
-- **[OpenClaw](https://github.com/openclaw/openclaw)**  
-
-  Open-source AI gateway (MIT) connecting LLMs to Slack, WhatsApp, Telegram, and Discord with memory and scheduling. Can build AI workflow agents that monitor channels, route requests, and automate tasks.
-
-
-
-- **[WrenAI](https://github.com/Canner/WrenAI)**  
-
-  Open-source GenBI and text-to-SQL agent (AGPL-3.0). Features natural language to SQL conversion, chart generation, and Slack/Teams integration. Can build conversational data workflow bots.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[CrewAI](https://github.com/crewAIInc/crewAI)** — Open-source multi-agent orchestration (MIT) for building collaborative AI workflows.
-
-- **[AutoGen](https://github.com/microsoft/autogen)** — Microsoft's multi-agent conversation framework (MIT) for building workflow agents.
-
-- **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)** — Microsoft's LLM orchestration SDK (MIT) for building AI workflows.
-
-- **[OpenAI Swarm](https://github.com/openai/swarm)** — Lightweight multi-agent orchestration (MIT) from OpenAI.
-
-- **[Ollama](https://github.com/ollama/ollama)** — Local LLM runner (MIT) for privacy-preserving conversational AI.
-
-- **[LocalAI](https://github.com/mudler/LocalAI)** — OpenAI-compatible local inference (MIT) for self-hosted AI workflows.
-
-- Community **Slack Bolt** and **Teams Toolkit** projects for custom bot development.
-
-- **PostgreSQL + pgvector** for RAG memory in conversational workflows.
-
-
-
-**Frameworks for building custom systems**: Combine **Langflow** or **Dify** for visual LLM workflow design with **Rasa** or **Botpress** for conversational NLU, **n8n** or **Activepieces** for enterprise integrations, **Danswer (Onyx)** for knowledge retrieval, and **Ollama** for local inference — creating a fully self-hosted, enterprise-grade conversational workflow bot platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Conversational bots handling employee and customer data must comply with data protection regulations (GDPR, CCPA, SOC 2, etc.).
-
-- Self-hosted open-source solutions require proper security hardening, LLM guardrails, and ongoing maintenance for production reliability.
-
-
+<div align="center">
+
+<img src="./assets/banner.svg" alt="Awesome Conversational Workflow Bot Banner" width="100%" />
+
+# 🤖 Awesome Conversational Workflow Bot
+
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![Conversational AI](https://img.shields.io/badge/Category-Conversational%20AI-blue?style=flat-square)](https://github.com/ishandutta2007/Awesome-Conversational-Workflow-Bot)
+[![Workflow Automation](https://img.shields.io/badge/Focus-Enterprise%20Workflows-orange?style=flat-square)](https://github.com/ishandutta2007/Awesome-Conversational-Workflow-Bot)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+<p align="center">
+  <strong>Curated Directory of Enterprise Conversational AI, IT Service Automation Chatbots, and Open-Source LLM Workflow Agents</strong>
+</p>
+<p align="center">
+  <em>Supercharge employee productivity across Slack, Microsoft Teams, Discord, and omnichannel workplaces.</em>
+</p>
+
+</div>
 
 ---
 
+## 🧭 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Enterprise Hosted Platforms](#-saas--enterprise-hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [🧩 Architectural Combinations & Stack Guides](#-architectural-combinations--stack-guides)
+- [📈 Star History](#--star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📜 Disclaimer](#-disclaimer)
 
-**Made for IT teams, HR operations, customer support leaders, and developers building transparent conversational workflow solutions.**  
+---
 
-Let's make conversational workflow bots more open, data-driven, and efficient.
+## 📊 Sector Overview & Market Dynamics
+
+The global conversational AI and enterprise workflow bot market is estimated at **$13.6B–$14.8B in 2025** and projected to surge past **$31.9B by 2028** (growing at a ~40% CAGR), accelerated by generative AI and autonomous multi-agent systems.
+
+The sector is **moderately fragmented**: mega-cap CRM and ERP incumbent giants (such as Salesforce, ServiceNow, and Microsoft) capture substantial platform spend through native suites, while specialized, high-growth enterprise platforms (such as Moveworks, Kore.ai, Workato, and Ada) and vibrant open-source agentic frameworks (Dify, n8n, Langflow, and Ollama) dominate specialized IT orchestration, HR self-service, custom departmental RAG, and self-hosted privacy workflows.
+
+---
+
+## 💼 SaaS & Enterprise Hosted Platforms
+
+The table below is sorted in descending order by **Company Size (Valuation / Market Cap / Revenue)**.
+
+| Company / Product | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier / Trial Limits | Description & Key Enterprise Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Salesforce Slack / Slackbot](https://slack.com/)** | **~$280B+ Market Cap** ($38B+ Annual Revenue) | **$7.25 / user / month** (Pro plan, billed annually) | **Free plan forever**: 90-day message history, 1:1 huddles, up to 10 app integrations. Paid plans offer 30-day free trials. | Native workplace assistant for team workflows, reminders, and notifications. Deep bi-directional synchronization with Salesforce CRM, record approvals, and Agentforce conversational agents. |
+| **[Workato Workbot](https://www.workato.com/)** | **$5.7B Valuation** (~$150M+ ARR) | **$75 / month** (Self-service Pro tier; Enterprise custom from ~$10,000/yr) | **Free trial**: 50,000 one-time starter task credits to build and execute initial recipes; no perpetual free tier. | Enterprise iPaaS and workflow automation engine with interactive Workbots for Slack and Microsoft Teams. Integrates 400+ SaaS applications with zero-code triggers and approval loops. |
+| **[Moveworks](https://www.moveworks.com/)** | **$2.85B Valuation** (Acquired by ServiceNow Dec 2025; $100M+ ARR) | **~$150 / employee / year** (Enterprise licensing; custom annual quote) | **No free tier or trial**: Enterprise sales demo only; contracts typically require a minimum seat threshold of 500–1,000 employees. | Autonomous AI employee experience platform resolving IT tickets, HR inquiries, software access requests, and enterprise search queries natively within Slack and Microsoft Teams. |
+| **[Kore.ai](https://kore.ai/)** | **~$1.2B Valuation** ($230M+ funding raised) | **~$60 / month** (XO Platform Essential starting tier; Enterprise custom) | **14-day free trial** for Automation AI and **30-day free trial** for Contact Center AI (includes full access to sandbox builder and test bot limits); no perpetual free tier. | Enterprise conversational AI and GenAI orchestration platform for omnichannel virtual assistants. Features dialog management, agentic workflows, and integrations with ServiceNow, SAP, and Salesforce. |
+| **[Ada](https://www.ada.cx/)** | **$1.2B Valuation** ($200M+ funding raised; ~$70k median ACV) | **~$2,500 / month** (Billed annually; ~$30k/yr minimum contract) | **No free tier or trial**: Enterprise demo only; designed for organizations with >300,000 annual customer/employee conversations. | Autonomous AI service agent and customer experience workflow platform. Features conversational resolution pipelines, CRM ticketing integration, and omni-channel automated deflection. |
+| **[Yellow.ai](https://yellow.ai/)** | **~$550M Valuation** (Nasdaq SPAC merger; $34M+ ARR) | **$0.99 / resolution overage** (Pay-as-you-go; Enterprise custom from ~$1,000/mo) | **Free plan forever**: 1 AI agent, up to 500 chat sessions/month, FAQ knowledge base module, and up to 2 active communication channels. | Multi-agent conversational automation platform offering enterprise self-service for customer support, HR, and IT helpdesk with voice AI, WhatsApp, Teams, and web chatbots. |
+| **[Botpress](https://botpress.com/)** | **$120M Valuation** ($40M+ funding raised) | **$150 / month** (Plus plan, billed annually; or pay-as-you-go usage) | **Free plan forever**: $0/mo base, includes 25 conversations/month and $5/mo free AI token spend grant (auto-recharge packs available for overages). | Developer-centric conversational AI platform featuring visual flow construction, autonomous LLM action calling, and native integrations with Slack, Microsoft Teams, WhatsApp, and Webchat. |
+| **[Leena AI](https://leena.ai/)** | **~$150M Valuation** ($40M+ funding raised) | **~$5 / employee / month** (Enterprise annual contract; custom quote) | **No free tier or trial**: Enterprise sales demo only; custom sandbox access granted during pilot evaluations. | Autonomous employee service assistant specializing in HR and IT service desk automation, onboarding journeys, knowledge synthesis, and ServiceNow/Workday/Slack orchestration. |
+| **[Espressive Barista](https://www.espressive.com/)** | **~$100M Valuation** (Acquired by Rezolve AI Sep 2025) | **~$4 / employee / month** (Enterprise annual quote; typically $20k+ minimum) | **No free tier or trial**: Interactive sales demo and guided enterprise Proof of Value (PoV) only. | Virtual support agent for IT, HR, and facilities service desk operations. Provides out-of-the-box omnichannel ticket triage, automated deflection, and ServiceNow/Teams integration. |
+
+---
+
+## 🛠️ Open-Source GitHub Projects
+
+The table below is sorted in descending order by **GitHub Star Count**. Every badge links directly to the repository's live stargazers page.
+
+| Repository | GitHub Stars | License | Primary Capabilities & Workflow Focus |
+| :--- | :---: | :--- | :--- |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | [![Stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social&color=white)](https://github.com/openclaw/openclaw/stargazers) | MIT | Autonomous AI gateway connecting LLMs to Slack, WhatsApp, Telegram, and Discord with persistent memory, multi-channel orchestration, and scheduled tasks. |
+| **[n8n](https://github.com/n8n-io/n8n)** | [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | Fair-code (Sustainable Use) | Fair-code workflow automation platform with visual flow builder, 400+ nodes, LangChain AI agents, and conversational triggers for Slack, Teams, and Discord. |
+| **[Ollama](https://github.com/ollama/ollama)** | [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) | MIT | Lightweight, privacy-preserving local LLM runner (Llama 3, Mistral, DeepSeek, Qwen) for powering private conversational workflow bots without external data egress. |
+| **[Dify](https://github.com/langgenius/dify)** | [![Stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers) | Apache-2.0 w/ conditions | Production-ready LLM application development platform featuring visual orchestration, conversational agents, multi-model management, RAG pipelines, and API backends. |
+| **[Langflow](https://github.com/langflow-ai/langflow)** | [![Stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers) | MIT | Visual UI framework for multi-agent systems and RAG workflows. Enables rapid drag-and-drop conversational bot construction, MCP server connectivity, and API export. |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | [![Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) | MIT | Leading Python/TypeScript foundation library for context-aware conversational bots, tool chaining, long-term memory, and autonomous multi-step reasoning. |
+| **[AutoGen](https://github.com/microsoft/autogen)** | [![Stars](https://img.shields.io/github/stars/microsoft/autogen?style=social&color=white)](https://github.com/microsoft/autogen/stargazers) | MIT | Microsoft's multi-agent framework enabling autonomous conversational agents to collaborate, write code, execute tools, and solve complex business tasks. |
+| **[LiteLLM](https://github.com/BerriAI/litellm)** | [![Stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers) | MIT | High-throughput AI proxy gateway unifying 100+ LLMs (OpenAI, Anthropic, Bedrock, Ollama) behind a single OpenAI-compatible API with load balancing, caching, and guardrails. |
+| **[CrewAI](https://github.com/crewAIInc/crewAI)** | [![Stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=social&color=white)](https://github.com/crewAIInc/crewAI/stargazers) | MIT | Multi-agent orchestration framework for assembling autonomous AI agents into collaborative crews with role playing, shared memory, and task delegation. |
+| **[Flowise](https://github.com/FlowiseAI/Flowise)** | [![Stars](https://img.shields.io/github/stars/FlowiseAI/Flowise)](https://github.com/FlowiseAI/Flowise/stargazers) | Apache-2.0 | Drag-and-drop visual UI for building custom LLM flows, RAG assistants, and interactive chatbots with LangChainJS and LlamaIndex backends. |
+| **[LlamaIndex](https://github.com/run-llama/llama_index)** | [![Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers) | MIT | Data framework connecting custom enterprise data sources (databases, docs, APIs) to LLMs for accurate, context-rich conversational Q&A and workflow execution. |
+| **[Huginn](https://github.com/huginn/huginn)** | [![Stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers) | MIT | Event-driven automation system for building web agents that monitor URLs, handle webhooks, execute automated scripts, and send alerts to Slack and Teams. |
+| **[LocalAI](https://github.com/mudler/LocalAI)** | [![Stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers) | MIT | Self-hosted, drop-in replacement for OpenAI API running models locally on CPU and GPU without commercial cloud vendor dependencies. |
+| **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** | [![Stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers) | MIT | Open-source enterprise team communication platform with integrated bot engine, omnichannel livechat, slash commands, and webhook automations. |
+| **[Mattermost](https://github.com/mattermost/mattermost)** | [![Stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers) | MIT (Core) | Secure open-source collaboration platform with DevOps playbooks, bot accounts, slash commands, and workflow orchestration tailored for technical teams. |
+| **[Khoj](https://github.com/khoj-ai/khoj)** | [![Stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers) | AGPL-3.0 | Personal AI assistant and knowledge coworker with deep desktop/web search, automations, WhatsApp/Discord integration, and local LLM connectivity. |
+| **[Danswer (Onyx)](https://github.com/danswer-ai/danswer)** | [![Stars](https://img.shields.io/github/stars/danswer-ai/danswer?style=social&color=white)](https://github.com/danswer-ai/danswer/stargazers) | MIT | Enterprise AI search and conversational assistant with connectors for Slack, Google Drive, Jira, Confluence, and ServiceNow with strict role-based access control. |
+| **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)** | [![Stars](https://img.shields.io/github/stars/microsoft/semantic-kernel?style=social&color=white)](https://github.com/microsoft/semantic-kernel/stargazers) | MIT | Microsoft's enterprise-grade SDK for integrating LLMs with conventional programming languages (C#, Python, Java) using plugins, planners, and memories. |
+| **[Haystack](https://github.com/deepset-ai/haystack)** | [![Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers) | Apache-2.0 | End-to-end LLM orchestration framework by deepset for building customizable, production-scale RAG pipelines, agentic workflows, and semantic search systems. |
+| **[Activepieces](https://github.com/activepieces/activepieces)** | [![Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) | MIT (Core) | Open-source no-code workflow automation platform with 200+ integrations, native AI piece actions, and seamless event triggers for Slack and enterprise CRMs. |
+| **[OpenAI Swarm](https://github.com/openai/swarm)** | [![Stars](https://img.shields.io/github/stars/openai/swarm?style=social&color=white)](https://github.com/openai/swarm/stargazers) | MIT | Experimental, ergonomic multi-agent orchestration framework demonstrating agent coordination, function calling handoffs, and conversational routing. |
+| **[Rasa](https://github.com/RasaHQ/rasa)** | [![Stars](https://img.shields.io/github/stars/RasaHQ/rasa?style=social&color=white)](https://github.com/RasaHQ/rasa/stargazers) | Apache-2.0 | Robust conversational AI framework offering fine-grained natural language understanding (NLU), dialogue management, and custom Python action server integrations. |
+| **[WrenAI](https://github.com/Canner/WrenAI)** | [![Stars](https://img.shields.io/github/stars/Canner/WrenAI?style=social&color=white)](https://github.com/Canner/WrenAI/stargazers) | AGPL-3.0 | GenBI and text-to-SQL agent converting natural language questions into accurate SQL queries, data charts, and automated reporting bot messages for Slack and Teams. |
+| **[Botpress Core](https://github.com/botpress/botpress)** | [![Stars](https://img.shields.io/github/stars/botpress/botpress?style=social&color=white)](https://github.com/botpress/botpress/stargazers) | AGPL-3.0 / Fair-source | Modular open-source conversational platform featuring visual dialogue tree modeling, custom NLU, code execution hooks, and multi-channel adapters. |
+| **[Typebot](https://github.com/baptisteArno/typebot.io)** | [![Stars](https://img.shields.io/github/stars/baptisteArno/typebot.io?style=social&color=white)](https://github.com/baptisteArno/typebot.io/stargazers) | AGPL-3.0 | Open-source conversational form and chatbot builder with an intuitive visual flow builder, Docker self-hosting, and integrations with Slack and WhatsApp. |
+
+---
+
+## 🧩 Architectural Combinations & Stack Guides
+
+Build your own self-hosted, vendor-independent enterprise conversational stack:
+
+*   **Visual Interface & Builder**: [Dify](https://github.com/langgenius/dify), [Langflow](https://github.com/langflow-ai/langflow), or [Flowise](https://github.com/FlowiseAI/Flowise) for visual prompt chaining, dialogue nodes, and agent configurations.
+*   **Dialogue & Orchestration**: [Rasa](https://github.com/RasaHQ/rasa), [CrewAI](https://github.com/crewAIInc/crewAI), or [AutoGen](https://github.com/microsoft/autogen) for multi-agent collaboration and state management.
+*   **Enterprise Integration & Webhooks**: [n8n](https://github.com/n8n-io/n8n) or [Activepieces](https://github.com/activepieces/activepieces) for integrating 400+ SaaS tools, Jira tickets, and ServiceNow tables.
+*   **Enterprise Knowledge & RAG**: [Danswer (Onyx)](https://github.com/danswer-ai/danswer) or [LlamaIndex](https://github.com/run-llama/llama_index) for vectorized document retrieval across Confluence, Google Drive, and Notion.
+*   **Inference & Security**: [Ollama](https://github.com/ollama/ollama) or [LocalAI](https://github.com/mudler/LocalAI) paired with [LiteLLM](https://github.com/BerriAI/litellm) for private, zero-data-leakage on-premises model hosting.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Conversational-Workflow-Bot&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Conversational-Workflow-Bot&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated directory useful for your organization, IT team, or engineering project, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork the repo** to contribute new tools and ecosystem updates.
+- 📣 **Share with your colleagues** on LinkedIn, X/Twitter, or Reddit.
+- ☕ **Buy a coffee & sponsor**: Support ongoing research and maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository.
+2. Add or update entries in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Conversational-Workflow-Bot/README.md).
+3. Ensure entries include verifiable pricing details, free tier/trial boundaries, company valuation/revenue metrics, and proper GitHub star badges.
+4. Submit a Pull Request with a clear description of the additions.
+
+---
+
+## 📜 Disclaimer
+
+- This list is community-curated for informational, technical, and educational purposes.
+- Mentions do not constitute commercial endorsement or warranty.
+- Always verify data privacy and security compliance (SOC 2, ISO 27001, HIPAA, GDPR) prior to deploying conversational bots with corporate data.
+
+---
+
+<div align="center">
+  <sub>Maintained with ❤️ for the open conversational AI &amp; enterprise workflow automation community.</sub>
+</div>

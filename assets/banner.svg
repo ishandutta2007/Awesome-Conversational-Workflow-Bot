@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="glowGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .gradient-word {
+      fill: url(#accentGrad);
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 19px;
+      fill: #94a3b8;
+      letter-spacing: 0.2px;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+    .glow-circle-1 {
+      animation: floatPulse 6s ease-in-out infinite alternate;
+    }
+    .glow-circle-2 {
+      animation: floatPulse2 8s ease-in-out infinite alternate;
+    }
+    .flow-line {
+      stroke-dasharray: 8 6;
+      animation: dashMove 20s linear infinite;
+    }
+    .node-pulse {
+      animation: nodeBlink 3s ease-in-out infinite alternate;
+    }
+    @keyframes dashMove {
+      to {
+        stroke-dashoffset: -1000;
+      }
+    }
+    @keyframes floatPulse {
+      0% { transform: translate(0px, 0px) scale(1); opacity: 0.6; }
+      100% { transform: translate(30px, 15px) scale(1.15); opacity: 0.9; }
+    }
+    @keyframes floatPulse2 {
+      0% { transform: translate(0px, 0px) scale(1); opacity: 0.5; }
+      100% { transform: translate(-25px, -20px) scale(1.2); opacity: 0.85; }
+    }
+    @keyframes nodeBlink {
+      0% { r: 4; opacity: 0.5; }
+      100% { r: 6.5; opacity: 1; }
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Background Animated Atmospheric Glows -->
+  <g>
+    <circle class="glow-circle-1" cx="200" cy="80" r="140" fill="url(#glowGrad1)" filter="url(#glow)" />
+    <circle class="glow-circle-2" cx="1020" cy="280" r="160" fill="url(#glowGrad2)" filter="url(#glow)" />
+  </g>
+
+  <!-- Background Animated Subtle Flow Paths & Grid Connections -->
+  <g opacity="0.35">
+    <path class="flow-line" d="M 50 80 Q 300 20 600 80 T 1150 60" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <path class="flow-line" d="M 80 300 Q 400 340 700 290 T 1140 310" fill="none" stroke="#818cf8" stroke-width="1.5" />
+    <path class="flow-line" d="M 150 180 C 350 240 850 120 1080 200" fill="none" stroke="#c084fc" stroke-width="1" />
+    
+    <!-- Flow Nodes / Particles in Background -->
+    <circle class="node-pulse" cx="300" cy="50" r="4" fill="#38bdf8" />
+    <circle class="node-pulse" cx="600" cy="80" r="5" fill="#818cf8" style="animation-delay: 1s;" />
+    <circle class="node-pulse" cx="900" cy="65" r="4" fill="#c084fc" style="animation-delay: 2s;" />
+    <circle class="node-pulse" cx="400" cy="320" r="5" fill="#38bdf8" style="animation-delay: 1.5s;" />
+    <circle class="node-pulse" cx="800" cy="285" r="4" fill="#818cf8" style="animation-delay: 0.5s;" />
+  </g>
+
+  <!-- Border Outline -->
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- Foreground Content: Header Badge -->
+  <g transform="translate(60, 48)">
+    <rect width="270" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
+    <circle cx="14" cy="14" r="5" fill="#38bdf8" />
+    <text x="28" y="19" class="pill-text" fill="#93c5fd" font-size="12">ENTERPRISE CHATBOTS &amp; AGENTS</text>
+  </g>
+
+  <!-- Foreground Content: Title -->
+  <g transform="translate(60, 130)">
+    <text class="title-text">
+      Awesome <tspan class="gradient-word">Conversational Workflow</tspan> Bot
+    </text>
+  </g>
+
+  <!-- Foreground Content: Subtitle -->
+  <g transform="translate(60, 178)">
+    <text class="subtitle-text">
+      Curated directory of enterprise chatbots, autonomous IT automation platforms, and open-source agentic workflows
+    </text>
+  </g>
+
+  <!-- Foreground Content: Interactive Ecosystem Feature Pills -->
+  <g transform="translate(60, 240)">
+    <!-- Pill 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="190" height="42" rx="10" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <circle cx="20" cy="21" r="6" fill="#38bdf8" />
+      <text x="36" y="26" class="pill-text">Enterprise SaaS</text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(205, 0)">
+      <rect width="215" height="42" rx="10" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <circle cx="20" cy="21" r="6" fill="#818cf8" />
+      <text x="36" y="26" class="pill-text">Open-Source RAG / Agents</text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(435, 0)">
+      <rect width="200" height="42" rx="10" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <circle cx="20" cy="21" r="6" fill="#a855f7" />
+      <text x="36" y="26" class="pill-text">Slack &amp; Teams Workflows</text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(650, 0)">
+      <rect width="220" height="42" rx="10" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.2" />
+      <circle cx="20" cy="21" r="6" fill="#10b981" />
+      <text x="36" y="26" class="pill-text">IT &amp; Employee Self-Service</text>
+    </g>
+  </g>
+</svg>
