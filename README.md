@@ -63,9 +63,9 @@ The table below is sorted in descending order by **Company Size (Valuation / Mar
 
 ## 🛠️ Open-Source GitHub Projects
 
-The table below is sorted in descending order by **GitHub Star Count**. Every badge links directly to the repository's live stargazers page.
+The table below is sorted in descending order by **GitHub Stars_Count**. Every badge links directly to the repository's live stargazers page.
 
-| Repository | GitHub Stars | License | Primary Capabilities & Workflow Focus |
+| Repository | GitHub_Stars | License | Primary Capabilities & Workflow Focus |
 | :--- | :---: | :--- | :--- |
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | [![Stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social&color=white)](https://github.com/openclaw/openclaw/stargazers) | MIT | Autonomous AI gateway connecting LLMs to Slack, WhatsApp, Telegram, and Discord with persistent memory, multi-channel orchestration, and scheduled tasks. |
 | **[n8n](https://github.com/n8n-io/n8n)** | [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | Fair-code (Sustainable Use) | Fair-code workflow automation platform with visual flow builder, 400+ nodes, LangChain AI agents, and conversational triggers for Slack, Teams, and Discord. |
@@ -128,7 +128,7 @@ If you find this curated directory useful for your organization, IT team, or eng
 
 1. Fork this repository.
 2. Add or update entries in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Conversational-Workflow-Bot/README.md).
-3. Ensure entries include verifiable pricing details, free tier/trial boundaries, company valuation/revenue metrics, and proper GitHub star badges.
+3. Ensure entries include verifiable pricing details, free tier/trial boundaries, company valuation/revenue metrics, and proper GitHub Stars_Badges.
 4. Submit a Pull Request with a clear description of the additions.
 
 ---
